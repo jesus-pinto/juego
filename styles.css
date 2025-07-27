@@ -34,8 +34,8 @@ button {
   border-radius: 8px;
   border-color: #ff6600;
   font-family: inherit;
-  margin: 12px;
-  padding: 25px 30px;
+  margin: 0;
+  padding: 5px 20px;
   width: 100px;
 }
 button:not(:last-child) {
@@ -57,6 +57,6 @@ p {
 }
 
 @media (max-width: 440px) {
-  button { margin-top: 5px; }
+  button { margin-top: 25px; padding: 25px 30px; }
   #up, #down { margin-left: 100%; margin-right: 100%; }
 }
