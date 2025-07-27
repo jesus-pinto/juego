@@ -57,6 +57,7 @@ p {
 }
 
 @media (max-width: 440px) {
-  button { margin-top: 25px; padding: 25px 30px; }
+  .btns {height: 300px;}
+  button { margin-top: 15px; padding: 25px 30px; }
   #up, #down { margin-left: 100%; margin-right: 100%; }
 }
